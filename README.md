@@ -1,2 +1,2 @@
 # pulse
-pulse wathes 
+pulse watches 
