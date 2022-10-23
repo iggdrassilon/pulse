@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   console.log('Document ready!');
 
-
+ 
   /* Tiny slider from ganlanyuan github io/tiny-slider 3.10.22/*/
 
   const slider = tns({
@@ -123,42 +123,3 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-/* first mono script for tabs */
-//   $('.catalog-item__link').each(function(i) {
-//     $(this).on('click', function(e) {
-//       e.preventDefault();
-//       $('.catalog-item__content').eq(i).toggleClass('catalog-item__content_active');
-//       $('.catalog-item__list').eq(i).toggleClass('catalog-item__list_active');
-//   })
-// });
-
-//   $('.catalog-item__back').each(function(i) {
-//     $(this).on('click', function(e) {
-//       e.preventDefault();
-//       $('.catalog-item__content').eq(i).toggleClass('catalog-item__content_active');
-//       $('.catalog-item__list').eq(i).toggleClass('catalog-item__list_active');
-//   })
-// });
-
-
-/* jquerry carousel */
-
-// $(function(){{
-  //   console.log("document loaded!")
-  // }
-  //   $('.carousel__inner').slick({
-    //     speed: 1200,
-    //     adaptiveHeight: false,
-    //     prevArrow: '<button type="button" class="slick-prev"><img src="../icons/left-solid.svg"></button>',
-    //     nextArrow: '<button type="button" class="slick-next"><img src="../icons/right-solid.svg"></button>',
-//     responsive: [
-//       {
-//         breakpoint: 992,
-//         settings: {
-//           dots: true,
-//           arrows: false
-//         }
-//       }
-//     ]
-//   });
-// });
